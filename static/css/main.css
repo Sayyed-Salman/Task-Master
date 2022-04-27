@@ -1,0 +1,114 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ropa+Sans:ital@1&display=swap");
+
+body {
+  margin: 0;
+  font-family: 'Ropa Sans';
+  font-size: 50%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.content > h1 {
+  font-size: 5vw;
+}
+
+.content > h4 {
+  font-size: 2vw;
+}
+
+
+td{
+  vertical-align: bottom;
+  /* background-color: white;
+  border-radius: 40px; */
+}
+
+.table {
+  max-width: 80%;
+}
+
+.table,
+td,
+th {
+  width: fit-content;
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  font-size: 2vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  height: 1.3rem;
+  border: black 3px solid;
+  width: 50vw;
+  height: fit-content;
+  font-size: 30px;
+}
+
+.submit {
+  font-weight: bold;
+  background-color: yellow;
+  width: fit-content;
+  font-family: 'Open Sans';
+  font-size: 1.5vw;
+  padding: 10px;
+  border-radius: 5%;
+  border: none;
+}
+
+.submit:hover{
+  border-radius: 10px;
+  background-color: lightseagreen;
+}
+
+.main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+
+td > a{
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 70%;
+  /* font-weight: bold; */
+  font-family: 'Open Sans';
+  padding: 5px;
+  border-radius: 5%;
+  background-color: lightslategrey;
+  color: black;
+}
+td > a:hover{
+  background-color: black;
+  color: lightslategray;
+  border-radius: 10px;
+}
+td > a:first-child{
+  border: none;
+  background-color: red;
+}
+
+td>a:first-child:hover{
+  border-radius: 10px;
+  color: red;
+  background-color: black;
+}

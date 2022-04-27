@@ -1,0 +1,19 @@
+/* Update Button Style */
+
+input[type="submit"]{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    /* font-weight: bold; */
+    font-family: 'Open Sans';
+    padding: 5px;
+    border-radius: 5%;
+    background-color: lightslategrey;
+    color: black;
+}
+
+input[type="submit"]:hover{
+    border-radius: 10px;
+    background-color: black;
+    color: slategray;
+}
